@@ -14,4 +14,14 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&layout=compact)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=buenhyden&layout=compact)
+* Python 
+* JavaScript  
+  * Node JS  
+* Kubernetes
+* ElasticSearch  / Opensearch
+* Databases
+* Message Broker
+  * Kafka
+
+* HTML  / CSS
