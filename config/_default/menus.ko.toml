@@ -1,0 +1,113 @@
+# -- Main Menu --
+# The main menu is displayed in the header at the top of the page.
+# Acceptable parameters are name, pageRef, page, url, title, weight.
+# 
+# The simplest menu configuration is to provide:
+#   name = The name to be displayed for this menu link
+#   pageRef = The identifier of the page or section to link to
+#
+# By default the menu is ordered alphabetically. This can be
+# overridden by providing a weight value. The menu will then be
+# ordered by weight from lowest to highest.
+
+
+[[main]]
+  name = "About Me"
+  pageRef = "about"
+  weight = 1
+
+[[main]]
+  name = "Posts"
+  pageRef = "posts"
+  weight = 2
+
+[[main]]
+  name = "Notes"  
+  pageRef = "posts/notes"
+  parent = "Posts"
+
+[[main]]
+  name = "AI"  
+  pageRef = "posts/ai"
+  parent = "Posts"
+
+[[main]]
+  name = "Computer Science"  
+  pageRef = "posts/computer-science"  
+  parent = "Posts"
+
+[[main]]
+  name = "Programming"
+  pageRef = "posts/programming"
+  parent = "Posts"
+
+[[main]]
+  name = "Backend"
+  pageRef = "posts/backend"
+  parent = "Posts"
+
+[[main]]
+  name = "Frontend"
+  pageRef = "posts/frontend"
+  parent = "Posts"
+
+[[main]]
+  name = "Dev Ops"
+  pageRef = "posts/dev-ops"
+  parent = "Posts"
+
+[[main]]
+  name = "Data"
+  pageRef = "posts/data"
+  parent = "Posts"
+
+[[main]]
+  name = "Statistics"
+  pageRef = "posts/statistics"
+  parent = "Posts"
+
+
+# [[main]]
+#  name = "Merch"
+#  url = "posts"
+#  weight = 100
+
+#[[main]]
+#  name = "Test"
+#  pageRef = "pagTest"
+#  weight = 1000
+
+# -- Footer Menu --
+# The footer menu is displayed at the bottom of the page, just before
+# the copyright notice. Configure as per the main menu above.
+
+ [[footer]]
+   name = "Tags"
+   pageRef = "tags"
+   weight = 10
+
+ [[footer]]
+   name = "Series"
+   pageRef = "series"
+   weight = 20
+
+[[footer]]
+  name = "Categories"
+  pageRef = "categories"
+  weight = 30
+
+[[footer]]
+  name = "Archives"
+  pageRef = "archives"
+  weight = 40
+
+# -- Sub-Navigation menu --
+# [[subnavigation]]
+#   name = "Tags"
+#   pageRef = "tags"
+#   weight = 10
+
+# [[subnavigation]]
+#   name = "Categories"
+#   pageRef = "categories"
+#   weight = 20

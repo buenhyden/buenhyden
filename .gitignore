@@ -1,0 +1,27 @@
+.hugo_build.lock
+hugo_stats.json
+package-json.lock
+dist/
+node_modules/
+.history/
+.trash/
+.makemd/
+.eslintcache
+.giscus-frame
+.giscus-frame2
+.makemd/
+
+# IDEs
+.idea/
+
+# Hugo
+resources/
+public/
+jsconfig.json
+node_modules/
+go.sum
+.hugo_build.lock
+
+config/development/params.toml
+config/production/params.toml
+

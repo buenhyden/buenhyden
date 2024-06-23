@@ -1,0 +1,27 @@
+languageCode = "ko"
+languageName = "Korean"
+weight = 1
+title = "Hyden's Dev Blog"
+
+[params]
+  displayName = "KO"
+  isoCode = "ko"
+  rtl = false
+  dateFormat = "2 January 2006"
+  logo = "media/images/logo.png"
+  # secondaryLogo = "PATH"
+  description = "A powerful, lightweight theme for Hugo built with Tailwind CSS."
+  # copyright = "Copy, _right?_ :thinking_face:"
+
+[author]
+  name = "Hyunyoun Jo"
+  image = "media/images/who.png"
+  headline = "기억보다는 기록을 위한"
+  bio = "Python Back-End Developer"
+  links = [
+    { email = "mailto:chochyjj@gmail.com" },    
+    { github = "https://github.com/buenhyden" },
+    { linkedin = "https://www.linkedin.com/in/%ED%98%84%EC%9C%A4-%EC%A1%B0-9ba782164/"}
+  ]
+
+  
