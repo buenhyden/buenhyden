@@ -51,15 +51,17 @@ smartTOCHideUnfocusedChildren = true
   showDate = true
   showViews = true
   showLikes = true
-  showDateUpdated = true
+  showDateOnlyInArticle = false
+  showDateUpdated = false
   showAuthor = true
   showHero = false
-  heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
-  layoutBackgroundBlur = true # only used when heroStyle equals background
+  # heroStyle = "basic" # valid options: basic, big, background, thumbAndBackground
+  layoutBackgroundBlur = true # only used when heroStyle equals background or thumbAndBackground
+  layoutBackgroundHeaderSpace = true # only used when heroStyle equals background
   showBreadcrumbs = true
   showDraftLabel = true
   showEdit = false
-  editURL = ""
+  editURL = ""  
   editAppendPath = true
   seriesOpened = false
   showHeadingAnchors = true
@@ -74,19 +76,21 @@ smartTOCHideUnfocusedChildren = true
   showComments = true 
   showWordCount = true
   sharingLinks = [ "github", "linkedin", "email"]
+  showZenMode = false
 
 
 [list]
   showHero = true
-  heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
-  layoutBackgroundBlur = true # only used when heroStyle equals background
-  layoutBackgroundHeaderSpace = true
-  showBreadcrumbs = true
+  # heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
+  layoutBackgroundBlur = true # only used when heroStyle equals background or thumbAndBackground
+  layoutBackgroundHeaderSpace = true # only used when heroStyle equals background
+  showBreadcrumbs = false
   showSummary = false
   showViews = true
   showLikes = true
   showTableOfContents = true
   showCards = true
+  orderByWeight = false
   groupByYear = true
   cardView = true
   cardViewScreenWidth = false
@@ -98,7 +102,7 @@ smartTOCHideUnfocusedChildren = true
 [taxonomy]
   showTermCount = true
   showHero = true
-  heroStyle = "basic" # valid options: basic, big, background, thumbAndBackground
+  # heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
   showBreadcrumbs = true
   showViews = true
   showLikes = true
@@ -107,7 +111,7 @@ smartTOCHideUnfocusedChildren = true
 
 [term]
   showHero = true
-  heroStyle = "basic" # valid options: basic, big, background, thumbAndBackground
+  # heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
   showBreadcrumbs = true
   showViews = true
   showLikes = true
