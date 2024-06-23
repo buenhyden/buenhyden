@@ -1,2 +1,9 @@
-## Hi there 👋
+# Hi there 👋
+
+## GitHub Stats
+
 ![buenhyden's GitHub stats](https://github-readme-stats.vercel.app/api?username=buenhyden&show_icons=true&theme=radical)
+
+## Top Langs
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=buenhyden&layout=compact)
