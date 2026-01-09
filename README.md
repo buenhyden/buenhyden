@@ -1,8 +1,8 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=200&section=header&text=Hi,%20I'm%20Hyunyoun%20Jo&fontSize=70" />
 
-<div align="center">
+<h2 align="center"> 📫 Let's Connect </h2>
 
-## 📫 Let's Connect
+<div align="center">
 
 [![Blog](https://img.shields.io/badge/Blog-1EBC8F?style=flat-square&logo=github&logoColor=white)](https://buenhyden.github.io/)
 [![Email](https://img.shields.io/badge/chochyjj@gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:chochyjj@gmail.com)
@@ -26,9 +26,10 @@
 
 ---
 
-## 📊 GitHub Stats (활동 통계)
+<h2 align="center"> 📊 GitHub Stats (활동 통계) </h2>
+<div>
 
-![GitHub stats](https://github-readme-stats-two-jet-20.vercel.app/api?username=buenhyden&show_icons=true&theme=dracula) [![Top Langs](https://github-readme-stats-two-jet-20.vercel.app/api/top-langs/?username=buenhyden)](https://github.com/buenhyden/buenhyden)
+[![Top Langs](https://github-readme-stats-two-jet-20.vercel.app/api/top-langs/?username=buenhyden)](https://github.com/buenhyden/buenhyden) ![GitHub stats](https://github-readme-stats-two-jet-20.vercel.app/api?username=buenhyden&show_icons=true&theme=dracula)
 
 ### GitHub activities
 
@@ -37,15 +38,16 @@
 [![github activity graph](https://github-readme-activity-graph-sigma-two.vercel.app/graph?username=buenhyden&theme=dracula)](https://github.com/buenhyden)
 
 </div>
+</div>
 
 ---
 
-## 🎯 Current Focus (현재 집중 분야)
+<h2 align="center"> 🎯 Current Focus (현재 집중 분야) </h2>
+
+<div>
 
 실무에서 검증된 **🎯 Production-Ready** 기술 스택을 기반으로 시스템을 더욱 정교하게 고도화하는 동시에, **🌱 Currently Exploring** 기술을 통해 차세대 엔지니어링 역량을 확보하고 있습니다.
   *Enhancing proven production skills while securing next-generation capabilities through strategic exploration.*
-
-<div>
 
 * **🔨 Enhancing Production-Ready Skills (실무 기술 숙련도 향상)**
   * **Infrastructure Evolution**: **Terraform (테라폼)**을 활용하여 NCP/Azure 인프라 프로비저닝을 100% 자동화하고, 선언적 관리를 통해 인프라의 가시성과 형상 관리 수준을 강화하고 있습니다.
@@ -62,9 +64,9 @@
 
 ---
 
-## 💻 Tech Stack (기술 스택)
+<h2 align="center"> 💻 Tech Stack (기술 스택) </h2>
 
-### 🎯 Production-Ready (실무 숙련)
+<h3 align="center"> 🎯 Production-Ready (실무 숙련) </h3>
 
 <div align="center">
 
@@ -84,7 +86,7 @@
 
 ---
 
-### 🌱 Currently Exploring (탐구 및 학습)
+<h3 align="center">  🌱 Currently Exploring (탐구 및 학습) </h3>
 
 *백엔드 기반 위에 Full-stack, AI/ML, OPS 역량을 확장하기 위해 다음 기술들을 탐구하고 있습니다.*
 
@@ -112,20 +114,20 @@
 
 ---
 
-## 🚀 Featured Projects (주요 프로젝트)
+<h2 align="center"> 🚀 Featured Projects (주요 프로젝트) </h2>
 
 <details>
 <summary><b>상세 프로젝트 보기 (Click to expand)</b></summary>
 <div>
 
-### 🏢 Professional Experience (업무 경험)
+<h3 align="center"> 🏢 Professional Experience (업무 경험) </h3>
 
 * **공공기관 대상 MSA (Microservices Architecture) 기반 SaaS 플랫폼 구축**: NCP VPC-NKS 환경에서 멀티 테넌시 격리 설계 및 **CSAP/K-PaaS** 인증 기술 요건 총괄 대응.
 * **실시간 고가용성 재난 알림 시스템 운영**: 알림 파이프라인 및 데이터베이스 (DB) 인덱스 최적화로 서비스 오류율 **75% 감소** 및 시설 규모 **5배 확장**.
 * **엔터프라이즈 통합 관측성 및 SRE (Site Reliability Engineering) 프레임워크**: Prometheus/Grafana 통합 관제 및 SEV 등급 기반 장애 대응 프로세스 표준화로 **MTTR 30% 단축**.
 * **콘텐츠 제작 플랫폼 현대화**: Django REST API 리디자인 및 OpenSearch 도입으로 제작 공정 효율 **2배 향상** 및 검색 오탐률 **30% 감소**.
 
-### 🏗️ Personal Labs (개인 프로젝트)
+<h3 align="center"> 🏗️ Personal Labs (개인 프로젝트) </h3>
 
 * **[Cloud-Native Infrastructure Stack](https://github.com/buenhyden/hy-home.docker)**: 19개 서비스가 포함된 Docker 기반 통합 인프라 (PostgreSQL HA, Kafka, LLM 연동).
 * **[GitOps Kubernetes Platform](https://github.com/buenhyden/hy-home.k8s)**: ArgoCD, Istio, Kyverno를 활용한 선언적 운영 및 Canary (카나리) 배포 자동화 환경.
@@ -136,7 +138,7 @@
 
 ---
 
-## 🔥 Impact & Achievements (성과 및 영향력)
+<h2 align="center"> 🔥 Impact & Achievements (성과 및 영향력) </h2>
 
 <details>
 <summary><b>핵심 지표 및 성과 요약 (Click to expand)</b></summary>
@@ -155,6 +157,6 @@
 
 ---
 
-## 📝 Recent Blog Posts (최신 기술 블로그)
+<h2 align="center"> 📝 Recent Blog Posts (최신 기술 블로그) </h2>
 
 ---
