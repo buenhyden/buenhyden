@@ -1,5 +1,30 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=200&section=header&text=Hi,%20I'm%20Hyunyoun%20Jo&fontSize=70" />
 
+## 📊 GitHub Stats (활동 통계)
+
+<div align="center">
+
+### Github Stats 
+
+![GitHub stats](https://github-readme-stats-two-jet-20.vercel.app/api?username=buenhyden&show_icons=true&theme=radical)
+
+</div>
+<div align="center">
+
+### Most Used Languages
+
+[![Top Langs](https://github-readme-stats-two-jet-20.vercel.app/api/top-langs/?username=buenhyden)](https://github.com/buenhyden/buenhyden)
+
+</div>
+
+### GitHub activities
+
+<div align="center">
+
+[![github activity graph](https://github-readme-activity-graph-sigma-two.vercel.app/graph?username=buenhyden&theme=dracula)](https://github.com/buenhyden)
+
+</div>
+
 <div>
 
 ## 🏗️ Backend, Platform & DevOps Engineer
@@ -135,38 +160,6 @@
 
 ---
 
-## 📊 GitHub Stats (활동 통계)
 
-### Github Stats
 
-<div align="center">
 
-![GitHub stats](https://github-readme-stats-two-jet-20.vercel.app/api?username=buenhyden&show_icons=true&theme=radical)
-
-</div>
-
-### Most Used Languages
-
-<div align="center">
-
-[![Top Langs](https://github-readme-stats-two-jet-20.vercel.app/api/top-langs/?username=buenhyden)](https://github.com/buenhyden/buenhyden)
-
-</div>
-
-### GitHub activities
-
-<div align="center">
-
-[![github activity graph](https://github-readme-activity-graph-sigma-two.vercel.app/graph?username=buenhyden&theme=dracula)](https://github.com/buenhyden)
-
-</div>
-
----
-
-<div align="center">
-
-*"Building reliable systems, one commit at a time"* 💻✨
-
-**[Technical Blog](https://buenhyden.github.io/)** | **[LinkedIn](https://linkedin.com/in/hyunyoun-jo)**
-
-</div>
