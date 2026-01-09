@@ -31,7 +31,7 @@ jobs:
       - name: Run update script
         env:
           # RSS 피드 주소를 환경 변수로 관리 (Config as Code)
-          RSS_URL: "https://buenhyden.github.io/feed.xml" 
+          RSS_URL: "https://buenhyden.github.io/index.xml" 
         run: python scripts/update_readme.py
 
       # 3. 모든 변경 사항 통합 커밋 및 푸시 (Unified Commit)
