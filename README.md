@@ -88,9 +88,9 @@
 
 <h3 align="center">  🌱 Currently Exploring (탐구 및 학습) </h3>
 
-*백엔드 기반 위에 Full-stack, AI/ML, OPS 역량을 확장하기 위해 다음 기술들을 탐구하고 있습니다.*
-
 <div align="center">
+
+*백엔드 기반 위에 Full-stack, AI/ML, OPS 역량을 확장하기 위해 다음 기술들을 탐구하고 있습니다.*
 
 **☕ Languages & Backend**  
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![Spring_Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white) ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white) ![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
@@ -117,7 +117,7 @@
 <h2 align="center"> 🚀 Featured Projects (주요 프로젝트) </h2>
 
 <details>
-<summary><b>상세 프로젝트 보기 (Click to expand)</b></summary>
+<summary align="center"><b>상세 프로젝트 보기 (Click to expand)</b></summary>
 <div>
 
 <h3 align="center"> 🏢 Professional Experience (업무 경험) </h3>
@@ -141,7 +141,7 @@
 <h2 align="center"> 🔥 Impact & Achievements (성과 및 영향력) </h2>
 
 <details>
-<summary><b>핵심 지표 및 성과 요약 (Click to expand)</b></summary>
+<summary align="center"><b>핵심 지표 및 성과 요약 (Click to expand)</b></summary>
 
 <div align="center">
 
