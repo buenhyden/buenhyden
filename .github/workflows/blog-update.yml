@@ -1,4 +1,4 @@
-name: "🔄 Update Blog & Metrics"
+name: "🔄 Update Blog"
 
 on:
   schedule:
@@ -12,34 +12,9 @@ jobs:
       contents: write # 레포지토리에 커밋할 수 있는 권한 부여
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v4      
 
-      # 1. GitHub Metrics 생성 (심층 분석 및 프라이빗 데이터 포함)
-      - name: Generate GitHub Metrics
-        uses: lowlighter/metrics@latest
-        with:
-          # Settings > Secrets에 등록한 PAT 사용
-          token: ${{ secrets.METRICS_TOKEN }} 
-          user: buenhyden
-          template: classic
-          base: header, community, repositories, metadata
-          config_timezone: Asia/Seoul
-          filename: github-metrics.svg
-          
-          # 📊 언어 플러그인 상세 설정 (In-depth Analysis)
-          plugin_languages: yes
-          plugin_languages_indepth: yes # 코드 숙련도 및 복잡도 심층 분석 활성화          
-          plugin_languages_sections: most-used 
-          plugin_languages_details: percentage, bytes-size
-          plugin_languages_ignored: html, css, tex, less, sass, scss, jupyter notebook
-          plugin_languages_aliases: "JavaScript:TypeScript, Python:Python3"
-          plugin_languages_limit: 8
-          
-          # 프라이빗 활동 데이터 합산 및 레이아웃 최적화
-          config_order: base.header, is_active, base.repositories, languages
-          output_action: none # 통합 커밋을 위해 독립 푸시 방지
-
-      # 2. Python 환경 구축 및 품질 관리 (Quality Control)
+      # 1. Python 환경 구축 및 품질 관리 (Quality Control)
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
@@ -52,14 +27,14 @@ jobs:
         # 스크립트의 코드 품질 검사 수행 (정적 분석)
         run: ruff check scripts/update_readme.py 
 
-      # 3. 블로그 포스트 동기화 스크립트 실행 (환경 변수 주입)
+      # 2. 블로그 포스트 동기화 스크립트 실행 (환경 변수 주입)
       - name: Run update script
         env:
           # RSS 피드 주소를 환경 변수로 관리 (Config as Code)
           RSS_URL: "https://buenhyden.github.io/feed.xml" 
         run: python scripts/update_readme.py
 
-      # 4. 모든 변경 사항 통합 커밋 및 푸시 (Unified Commit)
+      # 3. 모든 변경 사항 통합 커밋 및 푸시 (Unified Commit)
       - name: Commit and Push
         run: |
           git config --global user.name 'github-actions[bot]'
