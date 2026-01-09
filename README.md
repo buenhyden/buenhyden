@@ -1,6 +1,6 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=200&section=header&text=Hi,%20I'm%20Hyunyoun%20Jo&fontSize=70" />
 
-<div align="center">
+<div>
 
 ## 🏗️ Backend, Platform & DevOps Engineer
 
@@ -41,7 +41,6 @@
 
 ## 💻 Tech Stack (기술 스택)
 
-<div>
 
 ### 🎯 Production-Ready (실무 숙련)
 
