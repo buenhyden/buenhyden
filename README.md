@@ -14,6 +14,7 @@
 ## 📫 Let's Connect
 
 <div align="center">
+
 [![Blog](https://img.shields.io/badge/Blog-1EBC8F?style=flat-square&logo=github&logoColor=white)](https://buenhyden.github.io/)
 [![Email](https://img.shields.io/badge/chochyjj@gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:chochyjj@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/hyunyoun-jo)
@@ -48,7 +49,7 @@
 
 ### 🎯 Production-Ready (실무 숙련)
 
-<div>
+<div align="center">
 
 **🔧 Backend & API** ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white) ![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-5FA04E?style=flat-square&logo=node.js&logoColor=white) ![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white) ![Sequelize](https://img.shields.io/badge/Sequelize-52B0E7?style=flat-square&logo=sequelize&logoColor=white)
 
@@ -66,7 +67,7 @@
 
 *백엔드 기반 위에 Full-stack, AI/ML, OPS 역량을 확장하기 위해 다음 기술들을 탐구하고 있습니다.*
 
-<div>
+<div align="center">
 
 **☕ Languages & Backend** ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![Spring_Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white) ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white) ![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
 
