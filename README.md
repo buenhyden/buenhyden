@@ -106,6 +106,14 @@
 
 ---
 
+## 📝 Recent Blog Posts (최신 블로그 포스트)
+
+- 🏗️ [System Design: Scalable Architecture Patterns](https://buenhyden.github.io/)
+* 🔄 [Git Flow: Branch Management Strategies](https://buenhyden.github.io/)
+* 🌐 [Semantic Web: Understanding Ontologies and RDF](https://buenhyden.github.io/)
+
+---
+
 ## 📊 GitHub Stats (활동 통계)
 
 <div align="center">
