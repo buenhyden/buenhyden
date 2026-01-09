@@ -1,6 +1,6 @@
 import os
 import re
-
+from datetime import datetime
 import feedparser
 
 # 1. 설정 관리 (Configuration)
@@ -70,7 +70,7 @@ def update_readme(new_content):
         # 마커를 포함한 전체 영역을 찾아서 교체하는 정규식 패턴
         # re.DOTALL: 줄바꿈 문자를 포함하여 매칭
         pattern = f"{re.escape(start_marker)}.*?{re.escape(end_marker)}"
-        replacement = f"{start_marker}\n{new_content}\n{end_marker}"
+        replacement = f"{start_marker}\n\n{new_content}\n\n{end_marker}"
 
         if re.search(pattern, readme_content, flags=re.DOTALL):
             new_readme = re.sub(pattern, replacement, readme_content, flags=re.DOTALL)
