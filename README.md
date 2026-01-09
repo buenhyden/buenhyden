@@ -111,6 +111,8 @@
 
 ## 🚀 Featured Projects (주요 프로젝트)
 
+<details>
+<summary><b>상세 프로젝트 보기 (Click to expand)</b></summary>
 <div>
 
 ### 🏢 Professional Experience (업무 경험)
@@ -127,10 +129,14 @@
 * **Multi-Language Project Templates**: 5개 언어, 17종 프레임워크의 Production-ready 개발 템플릿 표준화.
 
 </div>
+</details>
 
 ---
 
 ## 🔥 Impact & Achievements (성과 및 영향력)
+
+<details>
+<summary><b>핵심 지표 및 성과 요약 (Click to expand)</b></summary>
 
 <div align="center">
 
@@ -142,6 +148,7 @@
 | **지식 공유** | 사내 장애 대응 표준화 및 공공 인증 기술 문서화 주도 | **기술 블로그** 운영을 통한 아키텍처 지식 공유 |
 
 </div>
+</details>
 
 ---
 
