@@ -120,7 +120,7 @@
 <div align="center">
 
 [![GitHub Stats](https://github-readme-stats.vercel.app/api?username=buenhyden&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true)](https://github.com/buenhyden)
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=buenhyden&layout=compact&theme=tokyonight&hide_border=true&langs_count=8)](https://github.com/buenhyden)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=buenhyden&size_weight=0.5&count_weight=0.5)
 
 > **Productivity Note**: 상세 커밋 시간 분석 및 생산성 지표는 [productive-box](https://github.com/maxam2017/productive-box)를 통해 관리 중입니다.
 </div>
