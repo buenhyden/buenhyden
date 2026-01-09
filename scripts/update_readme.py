@@ -20,6 +20,11 @@ def fetch_blog_posts():
     try:
         # RSS 피드 파싱 실행
         feed = feedparser.parse(RSS_URL)
+
+        if not feed.entries:
+            print("No entries found in RSS feed.")
+            return None  # None을 반환하여 README 업데이트를 건너뜁니다.
+
         if feed.bozo:
             print(f"Warning: RSS feed parsing issue at {RSS_URL}")
 
@@ -37,36 +42,37 @@ def fetch_blog_posts():
 
 
 def update_readme(new_content):
-    """README.md 내의 전용 주석 마커 사이의 내용을 동적으로 교체합니다."""
-    if new_content is None:
+    """내용이 있을 때만 README를 업데이트함 (Defensive Coding)"""
+    if not new_content:
+        print("SKIP: Nothing to update. Keeping current README content.")
         return
 
     try:
         with open(README_PATH, "r", encoding="utf-8") as f:
-            readme = f.read()
+            readme_content = f.read()
 
-        # 정규 표현식 기반 치환 (Regex-based Replacement)
-        start_tag = ""
-        end_tag = ""
-        pattern = f"{start_tag}.*?{end_tag}"
-        replacement = f"{start_tag}\n{new_content}\n{end_tag}"
+        # 정규표현식 마커 정의
+        start_marker = "<h2 align="center"> 📝 Recent Blog Posts (최신 기술 블로그) </h2>"
+        end_marker = "---"
 
-        # 마커 존재 여부 검증
-        if not re.search(pattern, readme, flags=re.DOTALL):
-            print("Error: Automation markers not found in README.md")
-            return
+        # 마커를 포함한 전체 영역을 찾아서 교체하는 정규식 패턴
+        # re.DOTALL: 줄바꿈 문자를 포함하여 매칭
+        pattern = f"{re.escape(start_marker)}.*?{re.escape(end_marker)}"
+        replacement = f"{start_marker}\n{new_content}\n{end_marker}"
 
-        # 내용 반영 및 저장
-        updated_readme = re.sub(pattern, replacement, readme, flags=re.DOTALL)
-        with open(README_PATH, "w", encoding="utf-8") as f:
-            f.write(updated_readme)
-        print("Successfully updated README.md")
+        if re.search(pattern, readme_content, flags=re.DOTALL):
+            new_readme = re.sub(pattern, replacement, readme_content, flags=re.DOTALL)
+
+            with open(README_PATH, "w", encoding="utf-8") as f:
+                f.write(new_readme)
+            print("SUCCESS: README.md has been updated.")
+        else:
+            print("ERROR: Could not find markers in README.md. Please check the tags.")
 
     except Exception as e:
-        print(f"Error during file writing: {e}")
+        print(f"ERROR: Failed to update file: {e}")
 
 
 if __name__ == "__main__":
-    # 메인 실행 로직
     content = fetch_blog_posts()
     update_readme(content)
