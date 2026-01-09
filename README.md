@@ -126,10 +126,21 @@
 
 ## 📊 GitHub Stats (활동 통계)
 
-<div>
+<div align="center">
+
+<img src="./github-metrics.svg" alt="GitHub Metrics" width="100%" />
+
+<br/>
+
+> **SRE Note**: 외부 서비스(SPOF) 의존성을 제거하고, **Operations as Code**를 통해 가용성을 확보한 통계 시스템입니다.
+
+</div>
+
+<div align="center">
 
 ![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=buenhyden&theme=tokyo-night&hide_border=true)
 
+</div>
 ---
 
 <div align="center">
