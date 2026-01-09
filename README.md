@@ -1,24 +1,27 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=200&section=header&text=Hi,%20I'm%20Hyunyoun%20Jo&fontSize=70" />
 
-<div>
+<div align="center">
 
-## 🏗️ Backend, Platform & DevOps Engineer
+## 📫 Let's Connect
+
+[![Blog](https://img.shields.io/badge/Blog-1EBC8F?style=flat-square&logo=github&logoColor=white)](https://buenhyden.github.io/)
+[![Email](https://img.shields.io/badge/chochyjj@gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:chochyjj@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/hyunyoun-jo)
+
+</div>
+
+---
+
+<h2 align="center">🏗️ Backend, Platform & DevOps Engineer</h2>
+
+<div>
 
 **6년 5개월의 백엔드 및 플랫폼 엔지니어링 실무 경험**을 바탕으로 시스템의 고가용성 (HA (High Availability))과 운영 효율을 설계합니다.  
   *Maximizing system high-availability and operational efficiency based on **6 years and 5 months** of backend and platform engineering experience.*
 
 현재는 견고한 백엔드 기반 위에 **사용자 경험 (Full-stack (풀스택)), 지능형 자동화 (AI/LLMOps (거대 언어 모델 운영)), 그리고 코드 기반 운영 (IaC (Infrastructure as Code)/OPS (운영))** 역량을 결합하여 기술적 확장을 실천하고 있습니다.  
   *Expanding my technical horizons by integrating **User Experience (Full-stack), Intelligent Automation (AI/LLMOps), and Code-based Operations (IaC/OPS)** on top of a solid backend foundation.*
-</div>
-
-## 📫 Let's Connect
-
-<div align="center">
-
-[![Blog](https://img.shields.io/badge/Blog-1EBC8F?style=flat-square&logo=github&logoColor=white)](https://buenhyden.github.io/)
-[![Email](https://img.shields.io/badge/chochyjj@gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:chochyjj@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/hyunyoun-jo)
-
+  
 </div>
 
 ---
