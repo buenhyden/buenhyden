@@ -124,9 +124,6 @@
 
 ![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=buenhyden&theme=tokyo-night&hide_border=true)
 
-> **Productivity Note**: 상세 커밋 시간 분석 및 생산성 지표는 [productive-box](https://github.com/maxam2017/productive-box)를 통해 관리 중입니다.
-</div>
-
 ---
 
 <div align="center">
