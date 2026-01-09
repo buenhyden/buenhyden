@@ -158,9 +158,9 @@
 ---
 
 <h2 align="center"> 📝 Recent Blog Posts (최신 기술 블로그) </h2>
-- [System Design Overview](https://buenhyden.github.io/posts/system-architecture--design/overview/system-design/)
-- [꼬리 재귀(Tail Recursion)](https://buenhyden.github.io/posts/data-structures--algorithms/foundations/algorithmic-thinking/implementation-strategies/iteration-vs-recursion/recursion/types/tail-recursion/)
-- [ECMAScript](https://buenhyden.github.io/posts/programming-languages/javascript-family/javascript/core-features/es6+-features/ecmascript/)
-- [Semantic Web](https://buenhyden.github.io/posts/emerging-technologies/blockchain-and-distributed-ledger/blockchain/semantic-web/)
-- [Data Lake vs. Data Warehouse vs. Data Lakehouse](https://buenhyden.github.io/posts/data--database-systems/data-architecture/data-warehousing/modern-approaches/dl-vs-dwh-vs-dlh/)
+- [System Design Overview](https://buenhyden.github.io/posts/system-architecture--design/overview/system-design/)  
+- [꼬리 재귀(Tail Recursion)](https://buenhyden.github.io/posts/data-structures--algorithms/foundations/algorithmic-thinking/implementation-strategies/iteration-vs-recursion/recursion/types/tail-recursion/)  
+- [ECMAScript](https://buenhyden.github.io/posts/programming-languages/javascript-family/javascript/core-features/es6+-features/ecmascript/)  
+- [Semantic Web](https://buenhyden.github.io/posts/emerging-technologies/blockchain-and-distributed-ledger/blockchain/semantic-web/)  
+- [Data Lake vs. Data Warehouse vs. Data Lakehouse](https://buenhyden.github.io/posts/data--database-systems/data-architecture/data-warehousing/modern-approaches/dl-vs-dwh-vs-dlh/)  
 ---
