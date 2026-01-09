@@ -52,8 +52,8 @@ def update_readme(new_content):
             readme_content = f.read()
 
         # 정규표현식 마커 정의
-        start_marker = "<h2 align="center"> 📝 Recent Blog Posts (최신 기술 블로그) </h2>"
-        end_marker = "---"
+        start_marker = '<h2 align="center"> 📝 Recent Blog Posts (최신 기술 블로그) </h2>'
+        end_marker = '---'
 
         # 마커를 포함한 전체 영역을 찾아서 교체하는 정규식 패턴
         # re.DOTALL: 줄바꿈 문자를 포함하여 매칭
