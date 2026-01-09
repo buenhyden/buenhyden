@@ -27,9 +27,19 @@ def fetch_blog_posts():
 
         if feed.bozo:
             print(f"Warning: RSS feed parsing issue at {RSS_URL}")
+            
+        # 2. 날짜 기준 정렬 (Sorting Logic)
+        # published_parsed가 없는 경우 updated_parsed를 사용하거나 현재 시간을 기본값으로 설정하여 런타임 에러 방지
+        entries = feed.entries
+        entries.sort(
+            key=lambda x: x.get(
+                "published_parsed", x.get("updated_parsed", datetime.now().timetuple())
+            ),
+            reverse=True,
+        )
 
         posts = []
-        for entry in feed.entries[:MAX_POSTS]:
+        for entry in entries[:MAX_POSTS]:
             title = entry.title
             link = entry.link
             posts.append(f"- [{title}]({link})  ")
