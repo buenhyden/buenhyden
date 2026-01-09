@@ -108,7 +108,8 @@
 
 ## 📝 Recent Blog Posts (최신 블로그 포스트)
 
-- 🏗️ [System Design: Scalable Architecture Patterns](https://buenhyden.github.io/)
+* 🏗️ [System Design: Scalable Architecture Patterns](https://buenhyden.github.io/)
+
 * 🔄 [Git Flow: Branch Management Strategies](https://buenhyden.github.io/)
 * 🌐 [Semantic Web: Understanding Ontologies and RDF](https://buenhyden.github.io/)
 
@@ -129,8 +130,6 @@
 <div align="center">
 
 *"Building reliable systems, one commit at a time"* 💻✨
-
-![Visitor Count](https://profile-counter.glitch.me/buenhyden/count.svg)
 
 **[Technical Blog](https://buenhyden.github.io/)** | **[LinkedIn](https://linkedin.com/in/hyunyoun-jo)**
 
