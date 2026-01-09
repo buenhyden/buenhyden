@@ -137,17 +137,23 @@
 
 ## 📊 GitHub Stats (활동 통계)
 
+### Github Stats
+
 <div align="center">
 
 ![GitHub stats](https://github-readme-stats-two-jet-20.vercel.app/api?username=buenhyden&show_icons=true&theme=radical)
 
 </div>
 
+### Most Used Languages
+
 <div align="center">
 
 [![Top Langs](https://github-readme-stats-two-jet-20.vercel.app/api/top-langs/?username=buenhyden)](https://github.com/buenhyden/buenhyden)
 
 </div>
+
+### GitHub activities
 
 <div align="center">
 
