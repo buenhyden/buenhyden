@@ -39,8 +39,8 @@ jobs:
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          # 메트릭 이미지와 리드미 파일 모두 추가
-          git add README.md github-metrics.svg
+          # 리드미 파일만 추가
+          git add README.md 
           if ! git diff --staged --quiet; then
             git commit -m "docs: sync latest blog posts and metrics [skip ci]"
             git push
