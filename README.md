@@ -1,30 +1,5 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=200&section=header&text=Hi,%20I'm%20Hyunyoun%20Jo&fontSize=70" />
 
-## 📊 GitHub Stats (활동 통계)
-
-<div align="center">
-
-### Github Stats 
-
-![GitHub stats](https://github-readme-stats-two-jet-20.vercel.app/api?username=buenhyden&show_icons=true&theme=radical)
-
-</div>
-<div align="center">
-
-### Most Used Languages
-
-[![Top Langs](https://github-readme-stats-two-jet-20.vercel.app/api/top-langs/?username=buenhyden)](https://github.com/buenhyden/buenhyden)
-
-</div>
-
-### GitHub activities
-
-<div align="center">
-
-[![github activity graph](https://github-readme-activity-graph-sigma-two.vercel.app/graph?username=buenhyden&theme=dracula)](https://github.com/buenhyden)
-
-</div>
-
 <div>
 
 ## 🏗️ Backend, Platform & DevOps Engineer
@@ -43,6 +18,20 @@
 [![Blog](https://img.shields.io/badge/Blog-1EBC8F?style=flat-square&logo=github&logoColor=white)](https://buenhyden.github.io/)
 [![Email](https://img.shields.io/badge/chochyjj@gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:chochyjj@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/hyunyoun-jo)
+
+</div>
+
+---
+
+## 📊 GitHub Stats (활동 통계)
+
+![GitHub stats](https://github-readme-stats-two-jet-20.vercel.app/api?username=buenhyden&show_icons=true&theme=radical) [![Top Langs](https://github-readme-stats-two-jet-20.vercel.app/api/top-langs/?username=buenhyden)](https://github.com/buenhyden/buenhyden)
+
+### GitHub activities
+
+<div align="center">
+
+[![github activity graph](https://github-readme-activity-graph-sigma-two.vercel.app/graph?username=buenhyden&theme=dracula)](https://github.com/buenhyden)
 
 </div>
 
