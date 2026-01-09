@@ -32,7 +32,7 @@ def fetch_blog_posts():
         for entry in feed.entries[:MAX_POSTS]:
             title = entry.title
             link = entry.link
-            posts.append(f"- [{title}]({link}) \n")
+            posts.append(f"- [{title}]({link})  ")
 
         return "\n".join(posts) if posts else "업데이트된 포스트가 없습니다."
 
