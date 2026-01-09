@@ -25,7 +25,7 @@
 
 ## 📊 GitHub Stats (활동 통계)
 
-![GitHub stats](https://github-readme-stats-two-jet-20.vercel.app/api?username=buenhyden&show_icons=true&theme=radical) [![Top Langs](https://github-readme-stats-two-jet-20.vercel.app/api/top-langs/?username=buenhyden)](https://github.com/buenhyden/buenhyden)
+![GitHub stats](https://github-readme-stats-two-jet-20.vercel.app/api?username=buenhyden&show_icons=true&theme=dracula) [![Top Langs](https://github-readme-stats-two-jet-20.vercel.app/api/top-langs/?username=buenhyden)](https://github.com/buenhyden/buenhyden)
 
 ### GitHub activities
 
@@ -148,7 +148,3 @@
 ## 📝 Recent Blog Posts (최신 기술 블로그)
 
 ---
-
-
-
-
