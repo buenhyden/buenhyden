@@ -159,10 +159,5 @@
 
 <h2 align="center"> 📝 Recent Blog Posts (최신 기술 블로그) </h2>
 
-- [Lost Update](https://buenhyden.github.io/posts/data--database-systems/data-operations/transaction-management/transaction/transaction-isolation/concurrency-anomalies/lost-update/)  
-- [Phantom Read](https://buenhyden.github.io/posts/data--database-systems/data-operations/transaction-management/transaction/transaction-isolation/concurrency-anomalies/phantom-read/)  
-- [Write Skew](https://buenhyden.github.io/posts/data--database-systems/data-operations/transaction-management/transaction/transaction-isolation/concurrency-anomalies/write-skew/)  
-- [Dirty Read](https://buenhyden.github.io/posts/data--database-systems/data-operations/transaction-management/transaction/transaction-isolation/concurrency-anomalies/dirty-read/)  
-- [Serializable](https://buenhyden.github.io/posts/data--database-systems/data-operations/transaction-management/transaction/transaction-isolation/transaction-isolation-levels/serializable/)  
 
 ---
